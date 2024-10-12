@@ -1,7 +1,7 @@
 import ast
 
 class State:
-    state = 2
+    state = 0
 
 def get_source():
     with open(__file__, 'r') as file:
